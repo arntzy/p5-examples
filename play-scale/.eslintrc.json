@@ -1,0 +1,19 @@
+{
+    "env": {
+        "browser": true,
+        "es2021": true
+    },
+    "extends": [
+      "standard",
+      "p5js",
+      "p5js/dom",
+      "p5js/sound"
+    ],
+    "parserOptions": {
+        "ecmaVersion": 12
+    },
+    "rules": {
+      "no-unused-vars" : "off",
+      "no-undef": "off"
+    }
+}
